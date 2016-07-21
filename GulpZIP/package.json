@@ -1,0 +1,51 @@
+{
+  "name": "buildtestpro",
+  "version": "1.0.0",
+  "description": "BuildTestPro",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://git.oschina.net/xxxx"
+  },
+  "author": "Lyy",
+  "license": "ISC",
+  "devDependencies": {
+    "commander": "^2.9.0",
+    "del": "^2.2.1",
+    "fs": "^0.0.2",
+    "graceful-fs": "^4.1.4",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-changed": "^1.3.0",
+    "gulp-clean-css": "^2.0.10",
+    "gulp-concat": "^2.6.0",
+    "gulp-csslint": "^0.3.1",
+    "gulp-if": "^2.0.1",
+    "gulp-imagemin": "^3.0.1",
+    "gulp-jshint": "^2.0.1",
+    "gulp-json-replace": "^1.0.9",
+    "gulp-less": "^3.1.0",
+    "gulp-make-css-url-version": "0.0.13",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-minify-html": "^1.0.6",
+    "gulp-plumber": "^1.1.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-replace": "^0.5.4",
+    "gulp-rev": "^7.1.0",
+    "gulp-rev-collector": "^1.0.4",
+    "gulp-run": "^1.7.1",
+    "gulp-sequence": "^0.4.5",
+    "gulp-uglify": "^1.5.4",
+    "gulp-util": "^3.0.7",
+    "imagemin-pngcrush": "^5.0.0",
+    "jshint": "^2.9.2",
+    "merge-stream": "^1.0.0",
+    "minimist": "^1.2.0",
+    "path": "^0.12.7",
+    "q": "^1.4.1",
+    "run-sequence": "^1.2.1"
+  }
+}
