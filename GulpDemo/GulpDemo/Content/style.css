@@ -1,0 +1,357 @@
+.btn {
+    display: block;
+    background: #d12a3e;
+    color: #fff;
+}
+
+    .btn:hover {
+        color: #fff;
+    }
+
+.panel {
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    min-height: 300px;
+}
+
+    .panel .title {
+        height: 40px;
+        line-height: 40px;
+        padding: 0 20px;
+        font-size: 16px;
+        color: #333;
+        background-color: #f8f8f8;
+        font-weight: normal;
+    }
+
+        .panel .title span {
+            font-size: 14px;
+            color: #999;
+            margin-left: 10px;
+        }
+
+        .panel .title .more {
+            color: #0452a7;
+            font-size: 12px;
+            float: right;
+        }
+
+    .panel .tab-nav {
+        margin: 20px 10px 0;
+        border-bottom: 2px solid #ddd;
+    }
+
+        .panel .tab-nav a {
+            float: left;
+            padding: 0 10px 10px;
+            font-size: 14px;
+            color: #666;
+            margin-right: 40px;
+            margin-bottom: -2px;
+        }
+
+            .panel .tab-nav a.current {
+                color: #d12a3e;
+                border-bottom: 2px solid #e4393c;
+            }
+
+            .panel .tab-nav a:hover {
+                color: #e4393c;
+            }
+
+    .panel .tab-content {
+        display: none;
+    }
+
+        .panel .tab-content.current {
+            display: block;
+        }
+
+    .panel .title2 {
+        border-left: 2px solid #da3836;
+        color: #333;
+        margin: 20px;
+        padding-left: 10px;
+        font-size: 14px;
+        line-height: 14px;
+    }
+
+        .panel .title2 span {
+            color: #999;
+        }
+
+.balances {
+    border-width: 2px 1px 1px;
+    border-style: solid;
+    border-color: #d12a3e #ddd #ddd;
+    padding: 15px 20px;
+    margin-bottom: 20px;
+}
+
+    .balances .left {
+        float: left;
+        color: #666;
+        font-size: 14px;
+        margin-right: 50px;
+    }
+
+    .balances .amount {
+        color: #333;
+        font-size: 24px;
+    }
+
+        .balances .amount i {
+            font-size: 14px;
+            font-style: normal;
+        }
+
+    .balances .btn {
+        float: left;
+        width: 100px;
+        height: 40px;
+        text-align: center;
+        line-height: 40px;
+    }
+
+.account {
+    position: relative;
+}
+
+    .account .pagenation {
+        margin: 10px;
+        float: right;
+    }
+
+        .account .pagenation a {
+            float: left;
+            height: 28px;
+            margin-right: -1px;
+            border: 1px solid #ddd;
+            line-height: 28px;
+            color: #005ea7;
+            padding: 0 10px;
+        }
+
+            .account .pagenation a.disabled {
+                background-color: #f5f5f5;
+            }
+
+            .account .pagenation a.current {
+                background-color: #f5f5f5;
+                color: #d12a3e;
+            }
+
+    .account .rech-list {
+        margin: 10px;
+        width: 908px;
+    }
+
+        .account .rech-list td {
+            height: 40px;
+            color: #333;
+        }
+
+        .account .rech-list tr:nth-child(odd) {
+            background-color: #f5f5f5;
+        }
+
+        .account .rech-list .txt-btn {
+            display: block;
+            height: 22px;
+            width: 60px;
+            border: 1px solid #f1825c;
+            text-align: center;
+            line-height: 22px;
+            color: #f1825c;
+        }
+
+    .account .rech-set {
+        margin: 20px;
+    }
+
+        .account .rech-set .filed {
+            float: left;
+            width: 94px;
+            height: 15px;
+            line-height: 15px;
+            margin-right: -1px;
+            color: #333;
+            padding: 9px 10px;
+            border: 1px solid #ddd;
+        }
+
+            .account .rech-set .filed input[type=checkbox] {
+                float: right;
+                margin-top: 1px;
+            }
+
+        .account .rech-set .btn {
+            float: left;
+            width: 120px;
+            height: 35px;
+            line-height: 35px;
+            text-align: center;
+            margin-left: 20px;
+        }
+
+    .account .rech-form {
+        margin: 0 20px;
+    }
+
+        .account .rech-form input[type=text],
+        .account .rech-form a {
+            float: left;
+            width: 100px;
+            height: 35px;
+            border: 1px solid #ddd;
+            margin-right: 10px;
+            font-size: 14px;
+            line-height: 35px;
+            text-align: center;
+        }
+
+            .account .rech-form a.active {
+                border-color: #d12a3e;
+                background-color: #d12a3e;
+                color: #fff;
+            }
+
+        .account .rech-form input[type=text] {
+            width: 200px;
+            outline: none;
+        }
+
+    .account .agreement {
+        padding: 30px 20px;
+        line-height: 26px;
+        font-size: 14px;
+        color: #666;
+    }
+
+        .account .agreement .btn {
+            width: 140px;
+            height: 35px;
+            line-height: 35px;
+            color: #fff;
+            text-align: center;
+            margin: 40px auto 0;
+        }
+
+    .account .submit {
+        position: absolute;
+        width: 100%;
+        height: 49px;
+        line-height: 50px;
+        bottom: -1px;
+        text-align: right;
+        border-top: 1px solid #ddd;
+    }
+
+        .account .submit label {
+            font-size: 12px;
+        }
+
+            .account .submit label a {
+                color: #2c59b8;
+            }
+
+        .account .submit .chkbox {
+            margin-right: 5px;
+            vertical-align: -2px;
+        }
+
+        .account .submit .btn {
+            float: right;
+            height: 50px;
+            width: 140px;
+            background-color: #d12a3e;
+            font-size: 18px;
+            margin: -1px 0;
+            color: #fff;
+            text-align: center;
+            border: 0;
+            margin-left: 20px;
+        }
+
+.rech-pop .content {
+    padding: 20px 32px;
+    font-size: 14px;
+    color: #333;
+    width: 279px;
+}
+
+.rech-pop p {
+    text-align: center;
+    line-height: 24px;
+}
+
+.rech-pop .btn {
+    width: 100px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    margin: 25px auto 0;
+}
+
+.popup {
+    display: none;
+    border: 10px solid rgba(0, 0, 0, 0);
+    overflow: hidden;
+}
+
+    .popup .close {
+        position: absolute;
+        width: 20px;
+        height: 16px;
+        top: 10px;
+        right: 10px;
+        background: url(http://resource.tuhu.cn/Image/Public/icon_new.png) -97px -210px;
+        cursor: pointer;
+        z-index: 1;
+    }
+
+.popup .content {
+        position: relative;
+        height: 100%;
+        background-color: #fff;
+        overflow: hidden;
+    }
+
+.leftNavi {
+    float: left;
+    width: 230px;
+    border-width: 2px 1px 1px;
+    border-style: solid;
+    border-color: #d12a3e #e3e3e3 #e3e3e3;
+    padding-bottom: 14px;
+}
+
+    .leftNavi h5 {
+        font-size: 13px;
+        line-height: 35px;
+        padding-left: 20px;
+        background: #f8f8f8;
+        margin-bottom: 5px;
+    }
+
+    .leftNavi a {
+        display: block;
+        margin-left: 41px;
+        line-height: 24px;
+    }
+
+        .leftNavi a.current {
+            color: #d12a3e;
+        }
+
+.r_content {
+    float: right;
+    width: 930px;
+    min-height: 304px;
+    padding-bottom: 40px;
+}
+
+.bodySection {
+    width: 1180px;
+    margin: 0 auto;
+}
